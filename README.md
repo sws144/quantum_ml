@@ -15,6 +15,10 @@ machine learning utilities
     1. to recreate env with updated pyproject.toml
         1. enter python env with `py -3.8 -m poetry shell`
         1. `update_env.bat`
+    1. to add dependencies
+        1. enter python env `py -3.8 -m poetry shell`
+        1. `poetry add packagename@^#.#.#` , @ is for version increase
+        1. for development dependencies `poetry add --group dev packagename@^#.#.#` 
     
 
     
