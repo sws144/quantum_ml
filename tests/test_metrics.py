@@ -23,3 +23,12 @@ def test_ginierror_highgini():
         )
         == 0.869
     ), "sample value should match"
+
+
+def test_ginierror_noweight():
+    y_true = [100, 2, 3, 4, 1]
+    y_pred = [100, 2, 3, 4, 1]
+
+    assert (
+        np.round(metrics.ginierror(y_true, y_pred, split=5, plot=False), 3) == 0.909
+    ), "sample value should match"

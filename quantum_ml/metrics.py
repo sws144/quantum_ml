@@ -68,6 +68,9 @@ def group_data(y_true, y_pred, sample_weight=None, split=5) -> pd.DataFrame:
         https://en.wikipedia.org/wiki/Hosmer%E2%80%93Lemeshow_test
     """
 
+    if sample_weight == None:
+        sample_weight = np.ones(len(y_true))
+
     sample_weight = np.asarray(sample_weight)
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
