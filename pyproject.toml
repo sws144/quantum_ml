@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "quantum-ml"
+name = "quantumtools"
 version = "0.1.0"
 description = ""
 authors = ["Stanley Wang <s.wang4331@gmail.com>"]

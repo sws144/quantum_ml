@@ -1,8 +1,11 @@
-# quantum_ml
+# quantumtools
 
 machine learning utilities
 
-1. Development setup
+## User Setup
+1. `pip install quantumtools`
+
+## Development setup
 
     1. **Note** prepend `py -3.8 -m` if there are different pythonv versions
     1. Install poetry
@@ -19,10 +22,9 @@ machine learning utilities
         1. enter python env `py -3.8 -m poetry shell`
         1. `poetry add packagename@^#.#.#` , @ is for version increase
         1. for development dependencies `poetry add --group dev packagename@^#.#.#` 
-    
 
-    
-1. Dev Reference
+## Dev Reference
+
     1. Generate pyproject.toml interactively and create venv
     1. poetry init  or poetry new packagename
     1. Add dependency
