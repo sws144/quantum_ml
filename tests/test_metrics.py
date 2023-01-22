@@ -1,5 +1,5 @@
 import numpy as np
-from quantum_ml import metrics
+from quantumtools import metrics
 
 
 def test_gini_one():
