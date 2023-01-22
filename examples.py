@@ -17,7 +17,7 @@
 # # Testing
 
 # %%
-from quantum_ml import metrics
+from quantumtools import metrics
 
 # %%
 import numpy as np
@@ -35,7 +35,7 @@ sample_weight = None
 # ## Test 2
 
 # %%
-from quantum_ml import metrics
+from quantumtools import metrics
 
 # %%
 dir(metrics)
