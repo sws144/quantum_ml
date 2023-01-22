@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "quantumtools"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Stanley Wang <s.wang4331@gmail.com>"]
 license = "GPL-3.0-or-later"
