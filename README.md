@@ -7,9 +7,12 @@ machine learning utilities
 
 ## Development setup
 
+1. `pip install pipx`
+1. `pipx install poetry` to install in dedicated virtual env. May need to uninstall poetry from current env
 1. **Note** prepend `py -3.8 -m` if there are different pythonv versions
 1. Install poetry
     1. `pip install poetry` # develop in python 3.8
+1. To run in jupyter, run `jupyter notebook`
 1. **Note** in windows and vscode, need to ensure vscode env path is 
     1. `~/.virtualenvs` 
     1. `"python.venvPath": "~/.virtualenvs"` in settings.json

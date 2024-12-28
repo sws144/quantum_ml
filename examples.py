@@ -27,8 +27,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # %%
-y_true = [100, 2, 3, 4, 1]
-y_pred = [100, 2, 3, 4, 1]
+y_true = [-0.5, 0.1, 0.20, 0.31, 0.6]
+y_pred = [-0.45, 0.05, 0.10, 0.3, 0.5]
 sample_weight = None
 
 # %% [markdown]
@@ -45,5 +45,16 @@ metrics.ginierror(y_true, y_pred ,sample_weight )
 
 # %% [markdown]
 # ## Negative Values Test
+
+# %%
+# there is existing issue if negative values
+
+# %%
+
+# %%
+
+# %%
+
+# %%
 
 # %%
